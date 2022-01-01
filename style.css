@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.header {
+    margin-left: 140px;
+    margin-top: 35px;
+    margin-right: 115px;
+}
+
+.fill {
+    position: absolute;
+    margin-top: 625px;
+    margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 31px;
+    height: 30px;
+    margin-right: 9px;
+}
+
+.logo h2 {
+    height: 22px;
+    width: 145px;
+    color: #1B1E76;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    text-align: right;
+    flex: 1;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2F281E;
+    height: 28px;
+    top: calc(50% - 28px/2 + 1px);
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+nav a:hover {
+    color: #01114C;
+}
+
+nav button {
+    height: 46px;
+    width: 139px;
+    border-radius: 4px;
+    background: #0025B4;
+    border: 0;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.row {
+    margin-top: 110px;
+    display: flex;
+}
+
+.row-2 h3 {
+    width: 518px;
+    height: 162px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.row-2 p {
+    width: 458px;
+    height: 196px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #544837;
+    margin-top: 43px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.button1 img {
+    height: 50px;
+    width: 190px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button1 h4 {
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 23.71px;
+}
+
+.row-4 {
+    display: flex;
+    margin-top: 48.29px;
+}
+
+.watchvideo {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.watchvideo img {
+    height: 17px;
+    width: 20px;
+    border-radius: 1.125px;
+    margin-right: 8.5px;
+}
+
+.watchvideo h4 {
+    height: 20px;
+    width: 134px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0025B4;
+}
