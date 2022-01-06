@@ -10,7 +10,6 @@ body {
 }
 
 .header {
-    margin-left: 140px;
     margin-top: 35px;
     margin-right: 115px;
 }
@@ -40,6 +39,7 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    margin-left: 140px;
 }
 
 nav {
@@ -93,6 +93,7 @@ nav button {
 .row {
     margin-top: 110px;
     display: flex;
+    margin-left: 140px;
 }
 
 .row-2 h3 {
@@ -119,33 +120,68 @@ nav button {
 }
 
 .button1 img {
+    position: absolute;
     height: 50px;
     width: 190px;
     border-radius: 5px;
-    text-align: center;
+}
+
+.button1 {
+    position: relative;
 }
 
 .button1 h4 {
+    position: absolute;
     height: 19px;
-    top: calc(50% - 19px/2);
+    width: 57px;
     font-family: 'Trueno';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    padding-top: 23.71px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.button2 img {
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    border-radius: 5px;
+}
+
+.button2 {
+    position: relative;
+    margin-left: 440px;
+    margin-top: 35.29px;
+}
+
+.button2 h4 {
+    position: absolute;
+    height: 19px;
+    width: 57px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 
 .row-4 {
+    position: relative;
     display: flex;
     margin-top: 48.29px;
 }
 
 .watchvideo {
+    position: absolute;
     display: flex;
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 15px;
+    margin-left: 205px;
 }
 
 .watchvideo img {
@@ -165,4 +201,162 @@ nav button {
     line-height: 20px;
     text-decoration-line: underline;
     color: #0025B4;
+}
+
+.row1 {
+    position: absolute;
+    height: 1344px;
+    background: #F5F9FF;
+    margin: 37.65px 0 0 0;
+}
+
+.row12 {
+    text-align: center;
+    margin-top: 45.5px;
+}
+
+.row12 img {
+    height: 52px;
+    width: 53px;
+    border-radius: 5px;
+}
+
+.row12 h5 {
+    height: 54px;
+    top: calc(50% - 54px/2 + 37px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-top: 18.5px;
+}
+
+.row13 {
+    display: flex;
+    margin-left: 145px;
+}
+
+.row13 h6 {
+    width: 602px;
+    height: 442px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 65px;
+}
+
+.row141 {
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+    margin-top: 745px;
+    margin-left: 197px;
+    padding-top: 61px;
+    width: 1048px;
+    height: 560px;
+}
+
+.row14 {
+    display: flex;
+}
+
+.card1 {
+    width: 348px;
+    height: 364px;
+    background-color: #FFFFFF;
+    border-right: 0.25px solid #979797;
+    text-align: center;
+    padding-left: 44px;
+}
+
+.card2 {
+    width: 362.5px;
+    height: 364px;
+    background-color: #FFFFFF;
+    border-right: 0.25px solid #979797;
+    text-align: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.card3 {
+    width: 335.5px;
+    height: 364px;
+    background-color: #FFFFFF;
+    padding-left: 40.5px;
+}
+
+.card1-img {
+    width: 50px;
+    height: 50px;
+    background: #0025B4;
+    border-radius: 19px;
+    border: none;
+    margin-bottom: 83px;
+    margin-left: 106px;
+}
+
+.card1-img img {
+    margin-top: 14px;
+}
+
+.card2-img img {
+    margin-top: 14px;
+}
+
+.card2-img {
+    width: 50px;
+    height: 50px;
+    background: #09B1D9;
+    border-radius: 19px;
+    border: none;
+    margin-bottom: 83px;
+    margin-left: 119px;
+}
+
+.card3-img {
+    border: none;
+    margin-bottom: 83px;
+    margin-left: 80px;
+}
+
+.card1 h4 {
+    width: 263px;
+    height: 182px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #01114C;
+}
+
+.card2 h4 {
+    width: 288px;
+    height: 208px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #01114C;
+}
+
+.card3 h4 {
+    width: 240px;
+    height: 104px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #01114C;
 }
