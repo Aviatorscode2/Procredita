@@ -171,6 +171,68 @@ nav button {
     margin-top: 15px;
 }
 
+
+/* Signup button from the third section */
+
+.button3 img {
+    position: absolute;
+    height: 66.07px;
+    width: 245px;
+    border-radius: 5px;
+}
+
+.button3 {
+    position: relative;
+    margin-left: 250px;
+    margin-top: 30.29px;
+}
+
+.button3 h4 {
+    position: absolute;
+    height: 24px;
+    width: 71px;
+    top: calc(50% - 24px/2 + 0.5px);
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+/* Button4 */
+
+.button4 img {
+    position: absolute;
+    Width: 245px;
+    Height: 66.07px;
+    border-radius: 5px;
+}
+
+.button4 {
+    position: relative;
+    margin-left: 400px;
+    margin-top: 32.29px;
+}
+
+.button4 h4 {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    top: calc(50% - 19px/2);
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0025B4;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
 .row-4 {
     position: relative;
     display: flex;
@@ -232,6 +294,9 @@ nav button {
     color: #2F281E;
     margin-top: 18.5px;
 }
+
+
+/* comment */
 
 .row13 {
     display: flex;
@@ -359,4 +424,179 @@ nav button {
     line-height: 26px;
     text-align: center;
     color: #01114C;
+}
+
+.row2 {
+    position: relative;
+    height: 949px;
+    background: #FFFFFF;
+    margin-top: 535px;
+}
+
+.row3 {
+    position: absolute;
+    height: 365px;
+    width: 1440px;
+    background: transparent;
+    background-image: url(./assets/Rectangle.png);
+    margin-top: -10px;
+    opacity: 0.93;
+}
+
+.row4 {
+    position: absolute;
+    height: auto;
+    width: 1440px;
+    background: #FFFFFF;
+    margin-top: 355px;
+}
+
+.background-image {
+    position: relative;
+    height: 739px;
+    width: 550px;
+}
+
+.background-image>.Image1 {
+    position: absolute;
+    margin-top: 80px;
+}
+
+.background-image>.Image2 {
+    position: absolute;
+}
+
+.row21 {
+    text-align: center;
+    padding-top: 44.5px;
+    margin-left: 80px;
+}
+
+.row21 img {
+    height: 52px;
+    width: 53px;
+    border-radius: 5px;
+}
+
+.row21 h5 {
+    height: 54px;
+    top: calc(50% - 54px/2 + 37px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-top: 18.5px;
+}
+
+.row22 {
+    margin-left: 103px;
+    display: flex;
+    margin-top: 41px;
+    position: relative;
+}
+
+.row2-text {
+    margin-left: 150px;
+}
+
+.row2-text h6 {
+    height: 494px;
+    width: 491px;
+    bottom: 22.57%;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #000000;
+}
+
+.row2-text h3 {
+    height: 24px;
+    width: 356px;
+    top: calc(50% - 24px/2 + 210px);
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #01114C;
+    margin-left: 190px;
+    margin-top: 23px;
+}
+
+.row31 {
+    margin-left: 221px;
+}
+
+.row31 h2 {
+    width: 999px;
+    height: 105px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+
+.row31 span {
+    color: #0025B4;
+    opacity: 1;
+}
+
+.row31 h5 {
+    width: 999px;
+    height: 35px;
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 38px;
+}
+
+.profile-card {
+    display: flex;
+    width: 1440px;
+    margin-top: 75px;
+}
+
+.profile-card1 {
+    margin-left: 145px;
+    margin-right: 164px;
+}
+
+.profile-card1 img {
+    float: right;
+    margin-top: 31px;
+}
+
+.profile-card2 img {
+    float: right;
+    margin-top: 31px;
+}
+
+.profile-card12 h5 {
+    width: 493px;
+    height: 119px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-family: Trueno;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    color: #01114C;
+    padding-left: 36px;
+    padding-top: 21px;
 }
