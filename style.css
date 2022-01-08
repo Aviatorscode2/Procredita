@@ -7,6 +7,7 @@
 body {
     font-size: 'Poppins', sans-serif;
     position: relative;
+    overflow-x: hidden;
 }
 
 .header {
@@ -91,6 +92,7 @@ nav button {
 }
 
 .row {
+    width: 100%;
     margin-top: 110px;
     display: flex;
     margin-left: 140px;
@@ -266,6 +268,7 @@ nav button {
 }
 
 .row1 {
+    width: 100%;
     position: absolute;
     height: 1344px;
     background: #F5F9FF;
@@ -285,7 +288,6 @@ nav button {
 
 .row12 h5 {
     height: 54px;
-    top: calc(50% - 54px/2 + 37px);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
@@ -429,14 +431,15 @@ nav button {
 .row2 {
     position: relative;
     height: 949px;
-    background: #FFFFFF;
+    background: #ffff;
     margin-top: 535px;
+    width: 100%;
 }
 
 .row3 {
     position: absolute;
     height: 365px;
-    width: 1440px;
+    width: 100%;
     background: transparent;
     background-image: url(./assets/Rectangle.png);
     margin-top: -10px;
@@ -446,8 +449,8 @@ nav button {
 .row4 {
     position: absolute;
     height: auto;
-    width: 1440px;
-    background: #FFFFFF;
+    width: 100%;
+    background: #ffff;
     margin-top: 355px;
 }
 
@@ -498,7 +501,7 @@ nav button {
 }
 
 .row2-text {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .row2-text h6 {
@@ -565,13 +568,13 @@ nav button {
 
 .profile-card {
     display: flex;
-    width: 1440px;
+    width: 100%;
     margin-top: 75px;
 }
 
 .profile-card1 {
-    margin-left: 145px;
-    margin-right: 164px;
+    margin-left: 140px;
+    margin-right: 100px;
 }
 
 .profile-card1 img {
@@ -590,13 +593,189 @@ nav button {
     background: #FFFFFF;
     box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    font-family: Trueno;
+    font-family: 'Trueno';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    /* or 139% */
     color: #01114C;
     padding-left: 36px;
     padding-top: 21px;
+}
+
+
+/* Styling fo the footer section */
+
+footer {
+    position: absolute;
+    margin-top: 3485px;
+    width: 100%;
+    height: auto;
+    background-image: url(./assets/Object.png);
+}
+
+.footer-img {
+    position: absolute;
+    margin-left: 760px;
+}
+
+.footer-img img {
+    width: auto;
+    height: auto;
+}
+
+.footer-section {
+    margin-left: 146px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.footer-section h4 {
+    height: 19px;
+    top: calc(50% - 19px/2 - 84px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 19px;
+    letter-spacing: -0.227272px;
+    color: #041E8B;
+    margin-bottom: 24px;
+}
+
+.footer-section ul li {
+    list-style: none;
+}
+
+.footer-section a {
+    text-decoration: none;
+    height: 144px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.233333px;
+    color: #6D7278;
+}
+
+.footer-section2 {
+    margin-left: 149px;
+}
+
+.footer-section3 {
+    margin-left: 130px;
+}
+
+.footer-section4 {
+    position: relative;
+    height: 167.0173797607422px;
+    width: 215px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 400px rgba(0, 0, 0, 0.07);
+    margin-left: 160px;
+    margin-top: 120px;
+}
+
+.footer-section41,
+.footer-section42 {
+    display: flex;
+    margin-top: 21.02px;
+    margin-left: 19.5px;
+    margin-bottom: 23px;
+}
+
+.footer-section43 {
+    margin-top: 7px;
+    margin-bottom: 29px;
+    display: flex;
+    margin-left: 19.5px;
+}
+
+.footer-section41 img {
+    height: 21.999998092651367px;
+    width: 15px;
+}
+
+.footer-section42 img {
+    width: 6.46px;
+    height: 15.75px;
+}
+
+.footer-section43 img {
+    width: 14px;
+    height: 11px;
+}
+
+.footer-section41 h5 {
+    height: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin-left: 19.5px;
+}
+
+.footer-section42 h5 {
+    width: 127px;
+    height: 14px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0091FF;
+    margin-left: 19.5px;
+}
+
+.footer-section43 h5 {
+    width: 121px;
+    height: 14px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #041E8B;
+    margin-left: 19.5px;
+}
+
+.last-footer {
+    width: 1146px;
+    margin-top: 40px;
+    margin-left: 146px;
+    margin-bottom: 60px;
+}
+
+.last-footer h5 {
+    font-family: 'Trueno';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6D7278;
+    width: 1146px;
+    letter-spacing: 0.50px;
+}
+
+.last-footer h5 span {
+    color: #041E8B;
+}
+
+.last-footer h6 {
+    width: 288px;
+    height: 14px;
+    top: calc(50% - 14px/2 + 246px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #041E8B;
+    margin-top: 40px;
+    margin-left: 320px;
 }
